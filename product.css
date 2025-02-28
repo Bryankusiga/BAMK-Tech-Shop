@@ -468,13 +468,16 @@ input:focus{
 }
 
 .row .col-2{
-  gap: 34px;
+  gap: 34px;s
   justify-content: space-between;
-
   grid-template-columns:  1fr  1fr ;
 }
 
-
+.row .col-2 .hop{
+  width: 90%;
+  border-radius: 100px;
+  margin-bottom: 19px;
+}
 
 
 
