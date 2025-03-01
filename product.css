@@ -371,7 +371,24 @@ cursor: pointer;
   cursor: pointer;
  font
 }
+
+
+
+
 /*------------all products page ------*/
+
+
+.title02 {
+  color: red;
+  font-size: 30px;
+  font-weight: 900px;
+   background-color: rgba(10, 500, 900, 0.4);
+  padding: 1%;
+  border-radius: 2%;
+  text-align: center;
+
+}
+
 .row-2{
     justify-content: space-between;
     margin: 100px auto 50px;
@@ -403,6 +420,18 @@ select:focus{
     color: #fff;
 }
 
+
+
+ .title01{
+  color: rgb(10, 122, 6);
+  background-color: rgba(4, 87, 32, 0.1);
+  margin: 6%;
+  padding: 2%;
+  border-radius: 5%;
+  text-align: center;
+  align-items: center;
+ 
+}
 /*-------------single product details------*/
 
 .single-product{
