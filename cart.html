@@ -45,8 +45,11 @@
 <br>
  <!--------cart items details-------->
  <div class="small-container cart-page">
-         
+
+     <form action="checkout.php" method="POST">
+
     <table>
+        
         <tr>
             <th>Product</th>
             <th>Quantity</th>
@@ -55,191 +58,55 @@
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="camera2.jpeg">
+                    <img src="computer0 1.jpg" id="1">
                     <div>
-                        <p>Good Quantity Camera</p>
-                        <small>Price: Tsh 200,000</small>
+                        <p>Good Quantity Desktop computer</p>
+                        <small>Price: Tzs. 800,000</small>
                         <br>
                         <a href="">Remove</a>
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
+            <td><input type="number" id="product1" name="product1" value="0" required></td>
+            <td>Tzs. 800,000</td>
         </tr>
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="raptop 6.jpg">
-                    <div>
-                        <p>Good Quantity Raptop</p>
-                        <small>Price: Tsh 400,000</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="computer0 2.png">
-                    <div>
-                        <p>Good Quantity Computer</p>
-                        <small>Price: Tsh 900,000</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
-        </tr>
-    </table>
-
-
-    <div class="total-price">
-        <table>
-            <tr>
-                <td>Subtotal</td>
-                <td>Tsh 1,000,000</td>
-            </tr>
-            <tr>
-                <td>Tax</td>
-                <td>Tsh 80,000</td>
-            </tr>
-            <tr>
-                <td>Total</td>
-                <td>Tsh1,080,000</td>
-            </tr>
-        </table>
-    </div>
-</div>
-  
-<hr>
-
-
-<div class="small-container cart-page">
-         
-    <table>
-        <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="CPU antena.jpg">
+                    <img src="CPU0 2 mbele&back.jpg" id="2">
                     <div>
                         <p>Good Quantity CPU</p>
-                        <small>Price: Tsh 500,000</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="drone black.jpg">
-                    <div>
-                        <p>Good Quantity Drone</p>
                         <small>Price: Tsh 400,000</small>
                         <br>
                         <a href="">Remove</a>
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
+            <td><input type="number" id="product2" name="product2" value="0" required></td>
+            <td>Tzs. 400,000</td>
         </tr>
+
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="Galvo-Laser-Marker-40E.jpg">
-                    <div>
-                        <p></p>
-                        <small>Price: Tsh 900,000</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
-        </tr>
-    </table>
-
-
-    <div class="total-price">
-        <table>
-            <tr>
-                <td>Subtotal</td>
-                <td>Tsh 1,000,000</td>
-            </tr>
-            <tr>
-                <td>Tax</td>
-                <td>Tsh 80,000</td>
-            </tr>
-            <tr>
-                <td>Total</td>
-                <td>Tsh1,080,000</td>
-            </tr>
-        </table>
-    </div>
-</div>
-
-<hr>
-
-
-<div class="small-container cart-page">
-         
-    <table>
-        <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="hp-desktop0-2 -computer-500x500(1).jpg">
-                    <div>
-                        <p>Good Quantity Camera</p>
-                        <small>Price: Tsh 200,000</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="keyboard8.webp">
+                    <img src="raptop bluu bahari.jpg" id="3">
                     <div>
                         <p>Good Quantity Raptop</p>
-                        <small>Price: Tsh 400,000</small>
+                        <small>Price: Tzs. 550,000</small>
                         <br>
                         <a href="">Remove</a>
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
+
+            <td><input type="number" id="product3" name="product3" value="0" required></td>
+            <td>Tzs. 550,000</td>
         </tr>
+
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="hop 1.png">
+                    <img src="hp-desktop0 1 -computer-500x500(0).jpg" id="4">
                     <div>
                         <p>Good Quantity Computer</p>
                         <small>Price: Tsh 900,000</small>
@@ -248,238 +115,424 @@
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
+
+            <td><input type="number" id="product4" name="product4" value="0" required></td>
             <td>Tsh:50000</td>
         </tr>
-    </table>
 
-
-    <div class="total-price">
-        <table>
-            <tr>
-                <td>Subtotal</td>
-                <td>Tsh 1,000,000</td>
-            </tr>
-            <tr>
-                <td>Tax</td>
-                <td>Tsh 80,000</td>
-            </tr>
-            <tr>
-                <td>Total</td>
-                <td>Tsh1,080,000</td>
-            </tr>
-        </table>
-    </div>
-</div>
-
-<hr>
-
-
-<div class="small-container cart-page">
-         
-    <table>
-        <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
-        </tr>
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="camera2.jpeg">
-                    <div>
-                        <p>Good Quantity Camera</p>
-                        <small>Price: Tsh 200,000</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="raptop 6.jpg">
+                    <img src="raptop2 1.jpg" id="5">
                     <div>
                         <p>Good Quantity Raptop</p>
-                        <small>Price: Tsh 400,000</small>
+                        <small>Price: Tzs. 900,000</small>
                         <br>
                         <a href="">Remove</a>
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
-        </tr>
+
+            <td><input type="number" id="product5" name="product5" value="0" required></td>
+            <td>Tzs. 900,000</td>
+        </tr> 
+
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="computer0 2.png">
+                    <img src="raptop mkononi1.jpg" id="6">
                     <div>
-                        <p>Good Quantity Computer</p>
-                        <small>Price: Tsh 900,000</small>
+                        <p>Good Quantity Hand laptops</p>
+                        <small>Price: Tsh 600,000</small>
                         <br>
                         <a href="">Remove</a>
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
+
+            <td><input type="number" id="product6" name="product6" value="0" required></td>
+            <td>Tzs. 600,000</td>
         </tr>
-    </table>
 
-
-    <div class="total-price">
-        <table>
-            <tr>
-                <td>Subtotal</td>
-                <td>Tsh 1,000,000</td>
-            </tr>
-            <tr>
-                <td>Tax</td>
-                <td>Tsh 80,000</td>
-            </tr>
-            <tr>
-                <td>Total</td>
-                <td>Tsh1,080,000</td>
-            </tr>
-        </table>
-    </div>
-</div>
-
-<hr>
-
-<div class="small-container cart-page">
-         
-    <table>
-        <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
-        </tr>
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="camera2.jpeg">
-                    <div>
-                        <p>Good Quantity Camera</p>
-                        <small>Price: Tsh 200,000</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
-        </tr>
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="raptop 6.jpg">
+                    <img src="raptop2 pink.jpg" id="7">
                     <div>
                         <p>Good Quantity Raptop</p>
-                        <small>Price: Tsh 400,000</small>
+                        <small>Price: Tzs. 550,000</small>
                         <br>
                         <a href="">Remove</a>
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
+
+            <td><input type="number" id="product7" name="product7" value="0" required></td>
+            <td> Tzs. 550,000</td>
         </tr>
+
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="computer0 2.png">
+                    <img src="tablet social2.jpg" id="8">
                     <div>
-                        <p>Good Quantity Computer</p>
-                        <small>Price: Tsh 900,000</small>
+                        <p>Good Quantity Tablet</p>
+                        <small>Price: Tzs. 450,000</small>
                         <br>
                         <a href="">Remove</a>
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
+
+            <td><input type="number" id="product8" name="product8" value="0" required></td>
+            <td>Tzs. 450,000</td>
         </tr>
-    </table>
 
-
-    <div class="total-price">
-        <table>
-            <tr>
-                <td>Subtotal</td>
-                <td>Tsh 1,000,000</td>
-            </tr>
-            <tr>
-                <td>Tax</td>
-                <td>Tsh 80,000</td>
-            </tr>
-            <tr>
-                <td>Total</td>
-                <td>Tsh1,080,000</td>
-            </tr>
-        </table>
-    </div>
-</div>
-
-<hr>
-
-<div class="small-container cart-page">
-         
-    <table>
-        <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Subtotal</th>
-        </tr>
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="camera2.jpeg">
+                    <img src="tablet0 1 chaji.jpg" id="9">
+                    <div>
+                        <p>Good Quantity Tablet</p>
+                        <small>Price: Tzs. 500,000</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+
+            <td><input type="number" id="product9" name="product9" value="0" required></td>
+            <td>Tzs. 450,000</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="tablet8.jpg" id="10">
+                    <div>
+                        <p>Good Quantity Tablet</p>
+                        <small>Price: Tzs. 400,000</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+
+            <td><input type="number" id="product10" name="product10" value="0" required></td>
+            <td>Tzs. 400,000</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="simu0 4.jpeg" id="11">
+                    <div>
+                        <p>Good Quantity SmartPhones</p>
+                        <small>Price: Tzs. 740,000</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+
+            <td><input type="number" id="product11" name="product11" value="0" required></td>
+            <td>Tzs. 740,000</td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="simu13.jpg" id="12">
+                    <div>
+                        <p>Good Quantity smartphone</p>
+                        <small>Price: Tzs. 400,000</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+
+            <td><input type="number" id="product12" name="product12" value="0" required></td>
+            <td>Tzs. 400,000</td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="keyboard&mouse.jpg" id="13">
+                    <div>
+                        <p>Good Quantity wireless Keyboard and Mouse</p>
+                        <small>Price: Tzs. 50,000</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+
+            <td><input type="number" id="product13" name="product13" value="0" required></td>
+            <td>Tzs. 50,000</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="keyboard8.webp" id="14">
+                    <div>
+                        <p>Good Quantity Keyboard</p>
+                        <small>Price: Tzs. 40,000</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+
+            <td><input type="number" id="product14" name="product14" value="0" required></td>
+            <td>Tzs. 40,000</td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="Camera black.jpeg" id="15">
                     <div>
                         <p>Good Quantity Camera</p>
-                        <small>Price: Tsh 200,000</small>
+                        <small>Price: Tzs. 1,100,000</small>
                         <br>
                         <a href="">Remove</a>
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
+
+            <td><input type="number" id="product15" name="product15" value="0" required></td>
+            <td>Tzs. 1,100,000</td>
         </tr>
+
+
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="raptop 6.jpg">
+                    <img src="camera3 m.jpg" id="16">
                     <div>
-                        <p>Good Quantity Raptop</p>
-                        <small>Price: Tsh 400,000</small>
+                        <p>Good Quantity Camera</p>
+                        <small>Price: Tzs. 400,000</small>
                         <br>
                         <a href="">Remove</a>
                     </div>
                 </div>
             </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
+
+            <td><input type="number" id="product16" name="product16" value="0" required></td>
+            <td>Tzs. 400,000</td>
         </tr>
+
         <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="computer0 2.png">
-                    <div>
-                        <p>Good Quantity Computer</p>
-                        <small>Price: Tsh 900,000</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
+        <td>
+            <div class="cart-info">
+                <img src="drone black.jpg" id="17">
+                <div>
+                    <p>Good Quantity Drone</p>
+                    <small>Price: Tzs. 2,600,000</small>
+                    <br>
+                    <a href="">Remove</a>
                 </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>Tsh:50000</td>
-        </tr>
+            </div>
+        </td>
+        <td><input type="number" id="product17" name="product17" value="0" required></td>
+        <td>Tzs. 100,000</td>
+    </tr>
+       
+    <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="head phone 2 red.webp" id="18">
+                        <div>
+                            <p>Good Quantity Headphone</p>
+                            <small>Price: Tzs. 100,000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+    
+                <td><input type="number" id="product18" name="product18" value="0" required></td>
+                <td>Tzs. 100,000</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="head phone pick.jpeg" id="19">
+                        <div>
+                            <p>Good Quantity Headphone</p>
+                            <small>Price: Tzs. 150,000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+    
+                <td><input type="number" id="product19" name="product19" value="0" required></td>
+                <td>Tzs. 150,000</td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="mause02 2.jpg" id="20">
+                        <div>
+                            <p>Good Quantity Mouse</p>
+                            <small>Price: Tzs. 130,000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+    
+                <td><input type="number" id="product20" name="product20" value="0" required></td>
+                <td>Tzs. 130,000</td>
+            </tr>
+            
+          
+        <tr>
+        <td>
+            <div class="cart-info">
+                <img src="hop mistari.jpg"id="21">
+                <div>
+                    <p></p>
+                    <small>Price: Tzs. 20,000</small>
+                    <br>
+                    <a href="">Remove</a>
+                </div>
+            </div>
+        </td>
+
+        <td><input type="number" id="product21" name="product21" value="0" required></td>
+        <td>Tzs. 20,000</td>
+    </tr>
+
+    <tr>
+    <td>
+        <div class="cart-info">
+            <img src="hop 1.png"id="22">
+            <div>
+                <p></p>
+                <small>Price: Tzs. 30,000</small>
+                <br>
+                <a href="">Remove</a>
+            </div>
+        </div>
+    </td>
+
+    <td><input type="number" id="product22" name="product22" value="0" required></td>
+    <td>Tzs. 30,000</td>
+</tr>
+
+
+<tr>
+<td>
+    <div class="cart-info">
+        <img src="pad0 0.jpg"id="23">
+        <div>
+            <p>Good Quantity Pad</p>
+            <small>Price: Tzs. 50,000</small>
+            <br>
+            <a href="">Remove</a>
+        </div>
+    </div>
+</td>
+
+<td><input type="number" id="product23" name="product23" value="0" required></td>
+<td>Tzs. 50,000</td>
+</tr>
+
+<tr>
+<td>
+    <div class="cart-info">
+        <img src="pad2 bluu.jpg"id="24">
+        <div>
+            <p>Good Quantity Pad</p>
+            <small>Price: Tzs. 50,000</small>
+            <br>
+            <a href="">Remove</a>
+        </div>
+    </div>
+</td>
+
+<td><input type="number" id="product24" name="product24" value="0" required></td>
+<td>Tzs. 50,000</td>
+</tr>
+
+<tr>
+ <td>
+    <div class="cart-info">
+        <img src="multper screen3.jpg"id="25">
+        <div>
+            <p>Good Quantity Tri-Screen Raptop</p>
+            <small>Price: Tzs. 1,500,000</small>
+            <br>
+            <a href="">Remove</a>
+        </div>
+    </div>
+ </td>
+
+<td><input type="number" id="product25" name="product25" value="0" required></td>
+<td>Tzs. 1,500,000</td>
+</tr>
+
+<tr>
+<td>
+    <div class="cart-info">
+        <img src="multper screen14.jpg"id="26">
+        <div>
+            <p>Good Quantity Tri-Screen Raptop</p>
+            <small>Price: Tzs. 3,000,000</small>
+            <br>
+            <a href="">Remove</a>
+        </div>
+    </div>
+</td>
+
+<td><input type="number" id="product26" name="product26" value="0" required></td>
+<td>Tzs. 3,000,000</td>
+</tr>
+
+<tr>
+<td>
+    <div class="cart-info">
+        <img src="printer0 3.jpg"id="27">
+        <div>
+            <p>Good Quantity Printer</p>
+            <small>Price: Tzs. 4,000,000</small>
+            <br>
+            <a href="">Remove</a>
+        </div>
+    </div>
+</td>
+
+<td><input type="number" id="product27" name="product27" value="0" required></td>
+<td>Tzs. 4,000,000</td>
+</tr>
+
+<tr>
+    <td>
+        <div class="cart-info">
+            <img src="printer00.jpg" id="28">
+            <div>
+                <p></p>
+                <small>Price: Tzs. 1,000,000</small>
+                <br>
+                <a href="">Remove</a>
+            </div>
+        </div>
+    </td>
+    
+    <td><input type="number" id="product28" name="product28" value="0" required></td>
+    <td>Tzs. 1,000,000</td>
+    </tr>
+
+
     </table>
 
 
@@ -498,12 +551,14 @@
                 <td>Tsh1,080,000</td>
             </tr>
         </table>
-    </div>
+    
+          </div>
+          <input type="submit" value="checkout" class="btn">
+        </form>
 </div>
 
 <hr>
-  
-<br>
+
       
     <!-----footer------>
     <div class="footer">
